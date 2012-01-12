@@ -1,0 +1,29 @@
+[twitter]
+# access_token_key = "451244052-QaJyjIUvGPj20LOxR4Rlve2Tfem5F19m606BY2o"
+# access_token_secret = "vhxQxRu85P6ytTJgNLXF8JDNThrJfzGB7xcWvr2k"
+consumer_secret = Consumer secret from twitter
+consumer_key = Consumer key from twitter
+twitpic_key = API key from twitpic
+username = no404bot
+password = password here
+keywords = #no404
+
+[simpleauthtwitter]
+key = Key from simple auth twitter
+
+[wkhtmltoimage]
+format = jpg
+# bin_local = env http_proxy=127.0.0.1:9999 /Users/ccp/Dropbox/bin/wkhtmltoimage
+# bin_server = env DISPLAY=:0 /bin/wkhtmltoimage
+# tmp_local = /Users/ccp/Dropbox/src/no404/single/tmp
+# tmp_server = /home/ccp/tmp
+
+bin = binary path to wkhtmltoimage
+tmp = a directory where snapshots are saved
+
+args = --load-error-handling ignore --quality 100 --javascript-delay 5000
+
+[mongodb]
+host = 127.0.0.1
+port = 27017
+db = database name of mongodb
